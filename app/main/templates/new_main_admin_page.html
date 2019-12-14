@@ -1,0 +1,23 @@
+{% extends 'admin/master.html' %}
+{% block body %}
+  <div class="row">
+    <div class="col-sm-4 h2 text-center">
+      {{user_count}}
+      <small class="text-muted">
+        <br />signed up users
+      </small>
+    </div>
+    <div class="col-sm-4 h2 text-center">
+      {{user_count}}
+      <small class="text-muted">
+        <br />users with full price subscription
+      </small>
+    </div>
+    <div class="col-sm-4 h2 text-center">
+      {{user_count}}
+      <small class="text-muted">
+          <br />users with cutted price subscription
+      </small>
+    </div>
+  </div>
+{% endblock %}

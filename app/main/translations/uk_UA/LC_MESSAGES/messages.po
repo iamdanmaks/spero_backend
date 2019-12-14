@@ -1,0 +1,404 @@
+# Ukrainian (Ukraine) translations for PROJECT.
+# Copyright (C) 2019 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2019.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2019-11-26 02:31+0200\n"
+"PO-Revision-Date: 2019-11-26 02:33+0200\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: uk_UA\n"
+"Language-Team: uk_UA <LL@li.org>\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.6.0\n"
+
+#: controller/user_controller.py:21 controller/user_controller.py:49
+#: service/auth_helper.py:75 service/edit_helper.py:231
+#: service/user_service.py:153
+msgid "User not found"
+msgstr "Користувача не знайдено"
+
+#: service/auth_helper.py:18
+msgid "Successfully logged in."
+msgstr "Ви успішно увійшли"
+
+#: service/auth_helper.py:25
+msgid "Email or password does not match"
+msgstr "Пошта чи пароль не відповідають дійсності"
+
+#: service/auth_helper.py:32
+msgid "Try again"
+msgstr "Спробуйте знов"
+
+#: service/auth_helper.py:57 service/auth_helper.py:99
+msgid "Provide a valid auth token"
+msgstr "Надайте правильний токен"
+
+#: service/diagnosis_service.py:35
+msgid "No json file"
+msgstr "Відстуній json файл"
+
+#: service/diagnosis_service.py:42
+msgid "Wrong values of probabilities"
+msgstr "Неправильні значення ймовірностей"
+
+#: service/diagnosis_service.py:49
+msgid "Wrong value of result"
+msgstr "Неправильне значення результату"
+
+#: service/diagnosis_service.py:84
+msgid "Diagnosis is saved"
+msgstr "Діагноз збережено"
+
+#: service/diagnosis_service.py:113
+msgid "User does not exist"
+msgstr "Користувач не існує"
+
+#: service/diagnosis_service.py:120 service/diagnosis_service.py:160
+#: service/diagnosis_service.py:186 service/diagnosis_service.py:213
+msgid "Diagnosis not found"
+msgstr "Діагноз не знайдено"
+
+#: service/diagnosis_service.py:140
+msgid "This diagnosis is not yours"
+msgstr "Цей діагноз не ваш"
+
+#: service/diagnosis_service.py:169
+msgid "You can not view not yours diagnoses"
+msgstr "Ви не можете переглядати не свої діагнози"
+
+#: service/diagnosis_service.py:221
+msgid "Pieces of advice are gathered"
+msgstr "Поради зібрано"
+
+#: service/diagnosis_service.py:250
+msgid ""
+"File was named as .wav,                         but it is either not "
+"really .wav or it is broken"
+msgstr "Файл названо як .wav, але він або не є таким, або зламаний"
+
+#: service/diagnosis_service.py:281
+msgid "File is not .wav"
+msgstr "Файл не .wav"
+
+#: service/edit_helper.py:27
+msgid "You have not changed your current name"
+msgstr "Ви не змінили своє ім'я"
+
+#: service/edit_helper.py:37
+msgid "You have not changed your current surname"
+msgstr "Ви не змінили своє прізвище"
+
+#: service/edit_helper.py:47
+msgid "You have not changed your current height"
+msgstr "Ви не змінили свій зріст"
+
+#: service/edit_helper.py:57
+msgid "You have not changed your current weight"
+msgstr "Ви не змінили свою вагу"
+
+#: service/edit_helper.py:67
+msgid "You have not changed your current username"
+msgstr "Ви не змінили своє користувацьке ім'я"
+
+#: service/edit_helper.py:76
+msgid "This username is already taken"
+msgstr "Це користувацьке ім'я вже зайнято"
+
+#: service/edit_helper.py:86
+msgid "Your data was edited"
+msgstr "Ваші дані відредаговано"
+
+#: service/edit_helper.py:101
+msgid "Wrong password"
+msgstr "Неправильний пароль"
+
+#: service/edit_helper.py:108
+msgid "You have not changed your current password"
+msgstr "Ви не змінили ваш пароль"
+
+#: service/edit_helper.py:122
+msgid "Password was succesfully reset"
+msgstr "Пароль успішно змінено"
+
+#: service/edit_helper.py:129
+msgid "You have to fill in all the fields"
+msgstr "Ви маєте заповнити усі поля"
+
+#: service/edit_helper.py:187
+msgid "Reset email is sent"
+msgstr "Лист для зміни паролю надіслано"
+
+#: service/edit_helper.py:194 service/subscription_helper.py:128
+msgid "Error has occured"
+msgstr "Помилка сталась"
+
+#: service/edit_helper.py:205 service/user_service.py:128
+msgid "Let's conirm your email"
+msgstr "Давайте підтведимо вашу пошту"
+
+#: service/edit_helper.py:216 service/user_service.py:138
+msgid "Your email is not valid"
+msgstr "Ваша пошта неправильна"
+
+#: service/edit_helper.py:240
+msgid "It is your old password"
+msgstr "Це ваш старий пароль"
+
+#: service/edit_helper.py:254
+msgid "Your password was reset"
+msgstr "Ваш пароль змінено"
+
+#: service/edit_helper.py:261
+msgid "Data is not complete"
+msgstr "Дані не повні"
+
+#: service/edit_helper.py:267 service/user_service.py:170
+msgid "Your link has expired or it is wrong"
+msgstr "Посилання застаріло чи неправильне"
+
+#: service/edit_helper.py:275
+msgid "Click below to reset your password"
+msgstr "Натисніть нижче, щоб змінити пароль"
+
+#: service/edit_helper.py:279
+msgid "Click here to reset"
+msgstr "Натисніть сюди для зміни"
+
+#: service/edit_helper.py:280
+msgid "Thank you for using Spero!"
+msgstr "Дякуємо за користування Spero"
+
+#: service/subscription_helper.py:25
+msgid "Plan does not exist"
+msgstr "План не існує"
+
+#: service/subscription_helper.py:34
+msgid "You are already subscribed for Spero Max"
+msgstr "Ви вже підписані на Spero Max"
+
+#: service/subscription_helper.py:41
+msgid "You are already subscribed for Spero Advanced"
+msgstr "Ви вже підписані на Spero Advanced"
+
+#: service/subscription_helper.py:83
+msgid "You have succesfully subscriped to "
+msgstr "Ви успішно підписались на "
+
+#: service/subscription_helper.py:83
+msgid " plan"
+msgstr " план"
+
+#: service/subscription_helper.py:92
+msgid "Your card has been declined"
+msgstr "Вашій карті відмовлено в операції"
+
+#: service/user_service.py:38
+msgid "User age should be greater than 18"
+msgstr "Вік користувача має бути більшим за 18"
+
+#: service/user_service.py:45
+msgid "Username length should be greater than 6 and less than 25 symbols"
+msgstr "Довжина користувацького імені має бути більшою за 6 символів і меншою за 25"
+
+#: service/user_service.py:66
+msgid "User already exists. Please Log in."
+msgstr "Користувач вже існує. Будь ласка, увійдіть"
+
+#: service/user_service.py:94
+msgid "User was deleted"
+msgstr "Користувач було видалено"
+
+#: service/user_service.py:108
+msgid "Statistics is gathered"
+msgstr "Статистику зібрано"
+
+#: service/user_service.py:163
+msgid "Your email was confirmed"
+msgstr "Вашу пошту підтверджено"
+
+#: service/user_service.py:178
+msgid ""
+"Welcome! You've just signed up for Spero.             If it is your email"
+" than follow the confiramtion link below                  to finish "
+"registration"
+msgstr "Вітаємо! Ви щойно зареєструвались у Spero. Якщо це ваш email, перейдіть за посиланням щоб завершити реєстрацію"
+
+#: service/user_service.py:184
+msgid "Click here to confirm"
+msgstr "Натисніть тут, щоб підтвердити"
+
+#: service/user_service.py:185
+msgid "Thank you!"
+msgstr "Дякуємо!"
+
+#: service/user_service.py:223
+msgid "Successfully registered"
+msgstr "Успішно зареєстровано"
+
+#: service/user_service.py:230
+msgid "Some error occurred. Please try again."
+msgstr "Сталась якась помилка. Будь ласка, спробуйте знову"
+
+#: util/decorator.py:23
+msgid "Email is not confirmed"
+msgstr "Пошта не підтверджена"
+
+#: util/decorator.py:49
+msgid "Admin token required"
+msgstr "Необхіден токен адміністратора"
+
+#: util/decorator.py:75
+msgid "User not found, so probably they do not exist"
+msgstr "Користувача не знайдено, тож скоріш за все він не існує"
+
+#: util/decorator.py:84
+msgid "Token has wrong value"
+msgstr "Токен має неправильне значення"
+
+#: util/decorator.py:90
+msgid "Provide a valid auth token."
+msgstr "Надайте правильний токен"
+
+#: util/fun.py:39
+msgid "heart+healthy"
+msgstr "здорове серце"
+
+#: util/fun.py:41 util/pdf/pdf_funs.py:67
+msgid "Normal heartbeat"
+msgstr "Нормальне серцебиття"
+
+#: util/fun.py:43
+msgid "murmur"
+msgstr "шуми"
+
+#: util/fun.py:45
+msgid "Murmur"
+msgstr "Шуми"
+
+#: util/fun.py:47 util/pdf/pdf_funs.py:90
+msgid "extrasystole"
+msgstr "екстрасистоли"
+
+#: util/fun.py:49 util/pdf/pdf_funs.py:69
+msgid "Extrasystole"
+msgstr "Екстрасистоли"
+
+#: util/fun.py:70
+msgid ""
+"Password length should be greater                     than 6 and less "
+"than 30 symbols"
+msgstr "Довжина паролю має бути більшою за 6 символів і меншою за 30"
+
+#: util/fun.py:80
+msgid "Password should have at least one                     numeral value"
+msgstr "Пароль має містити хоча б одну цифру"
+
+#: util/fun.py:90
+msgid "Password should have at least one                     uppercase letter"
+msgstr "Пароль має містити хоча б одну велику літеру"
+
+#: util/fun.py:100
+msgid "Password should have at least one                     lowercase letter"
+msgstr "Пароль має містити хоча б одну малу літеру"
+
+#: util/fun.py:110
+msgid "Password is too common"
+msgstr "Пароль занадто простий"
+
+#: util/fun.py:119
+msgid "Password first and second inputs are                     not equal"
+msgstr "Пароль і його повтор не співпадають"
+
+#: util/pdf/pdf_class.py:41
+msgid "Patient: "
+msgstr "Пацієнт: "
+
+#: util/pdf/pdf_class.py:44
+msgid "Patient username: @"
+msgstr "Користувацьке ім'я пацієнта: @"
+
+#: util/pdf/pdf_class.py:47
+msgid "Patient age: "
+msgstr "Вік пацієнта: "
+
+#: util/pdf/pdf_class.py:50
+msgid "Result: "
+msgstr "Результат: "
+
+#: util/pdf/pdf_class.py:57
+msgid "Date of diagnostics: "
+msgstr "Дата діагностики: "
+
+#: util/pdf/pdf_class.py:70
+msgid "Page "
+msgstr "Сторінка "
+
+#: util/pdf/pdf_funs.py:31 util/pdf/pdf_funs.py:35
+msgid "DIAGNOSTICS REPORT FROM "
+msgstr "ЗВІТ З ДІАГНОСТИКИ ВІД "
+
+#: util/pdf/pdf_funs.py:63
+msgid "Probabilities of possible diagnostics results"
+msgstr "Ймовірності можливих результатів діагностики"
+
+#: util/pdf/pdf_funs.py:66
+msgid "Possible result"
+msgstr "Можливий результат"
+
+#: util/pdf/pdf_funs.py:66
+msgid "Probability"
+msgstr "Ймовірність"
+
+#: util/pdf/pdf_funs.py:68
+msgid "Murmurs"
+msgstr "Шуми"
+
+#: util/pdf/pdf_funs.py:88
+msgid "Diagnostics result visualization"
+msgstr "Візуалізація результатів діагностики"
+
+#: util/pdf/pdf_funs.py:90
+msgid "normal heartbeat"
+msgstr "нормальне серцебиття"
+
+#: util/pdf/pdf_funs.py:90
+msgid "murmurs"
+msgstr "шуми"
+
+#: util/pdf/pdf_funs.py:113
+msgid "Your heartbeat visualizations"
+msgstr "Візуалізації вашого серцебиття"
+
+#: util/pdf/pdf_funs.py:128
+msgid "Heartbeat waveform"
+msgstr "Хвильовий графік серцебиття"
+
+#: util/pdf/pdf_funs.py:153 util/pdf/pdf_funs.py:169 util/pdf/pdf_funs.py:185
+#: util/pdf/pdf_funs.py:202
+msgid "Time"
+msgstr "Час"
+
+#: util/pdf/pdf_funs.py:174
+msgid "Heartbeat spectrogram"
+msgstr "Спектрограма серцебиття"
+
+#: util/pdf/pdf_funs.py:190
+msgid "Mel-cepstral coefficients"
+msgstr "Мел-кепстральні коефіцієнти"
+
+#: util/pdf/pdf_funs.py:203
+msgid "Pitch class"
+msgstr "Пітч клас"
+
+#: util/pdf/pdf_funs.py:208
+msgid "Heartbeat chromagram"
+msgstr "Хромаграма серцебиття"
+
