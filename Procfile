@@ -1,1 +1,0 @@
-web: gunicorn --preload -w 4 manage:app
