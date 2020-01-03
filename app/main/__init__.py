@@ -13,7 +13,7 @@ import cloudinary
 
 from itsdangerous import URLSafeTimedSerializer
 
-#from .util.checker_usage import define_checker_model
+from .util.checker_usage import define_checker_model
 
 from .config import config_by_name
 
@@ -29,7 +29,7 @@ stripe_module = stripe
 serializer = URLSafeTimedSerializer('my_secret_key')
 salt = 'my_secret_password'
 
-#checker_model, graph = define_checker_model()
+checker_model, graph = define_checker_model()
 
 from app.main.controller.admin.index_controller import MyAnalyticsView, \
     login_admin, LoginForm

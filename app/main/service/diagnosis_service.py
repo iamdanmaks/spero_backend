@@ -255,15 +255,13 @@ def check_wav_file(file):
         new_sample_rate = 16000
         audio = resample(audio.astype(float), sr, new_sample_rate)
 
-        #UNCOMMENT BEFORE DEPLOYMENT
-        #if evaluate(audio) > 0.5:
+        if evaluate(audio) > 0.5:
 
-        return {
-            'valid': True,
-            'audio': ((audio + audio.min()) * (2 ** 15) / audio.ptp()).astype(int16)
-        }
+            return {
+                'valid': True,
+                'audio': ((audio + audio.min()) * (2 ** 15) / audio.ptp()).astype(int16)
+            }
         
-        '''
         else:
             return {
                 'valid': False,
@@ -272,7 +270,7 @@ def check_wav_file(file):
                     'message': gettext('Audio is not a heartbeat or it is too noisy')
                 }
             }
-        '''
+        
     else:
         return {
                 'valid': False,
