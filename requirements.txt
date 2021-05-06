@@ -27,7 +27,7 @@ scipy==1.1.0
 Flask_Security==3.0.0
 Flask_Babel==0.11.2
 Flask==0.12.2
-Flask_Cors==3.0.7
+Flask_Cors==3.0.9
 beautifulsoup4==4.8.1
 python_dateutil==2.8.1
 PyJWT==1.7.1
